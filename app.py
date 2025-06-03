@@ -13,7 +13,7 @@ from firebase_admin import credentials, firestore
 from collections import defaultdict
 
 # Import firebase utilities
-from src.services.firebase_utils import (
+from src.firebase_utils import (
     get_user, create_or_update_user, mute_user, unmute_user, update_user_digest_config,
     add_kudos, get_recent_kudos, get_open_blockers, get_latest_team_digest, get_latest_trends,
     get_user_messages

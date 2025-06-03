@@ -1,6 +1,6 @@
 from google.cloud import firestore
 from config import COLLECTIONS
-from src.services.role_service import RoleService
+from src.role_service import RoleService
 
 class UserService:
     def __init__(self):
